@@ -6,7 +6,7 @@ function FormCard() {
   const [result, setResult] = useState(0)
 
   const onCalculateSum = () => {
-    fetch('http://localhost:4888/get-sum', {
+    fetch('http://localhost:8888/get-sum', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

@@ -1,0 +1,18 @@
+* ,
+*:before ,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.App {
+    padding-top: $header-height + 59;
+}
+
+
+button , input {
+    outline: none !important;
+}

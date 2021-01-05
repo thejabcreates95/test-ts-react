@@ -31,7 +31,7 @@ function FormCard() {
               type="number"
               placeholder="number 1"
               className="form-card__input"
-              onChange={e => setNum1(e.target.value)}
+              onChange={e => setNum1(parseInt(e.target.value))}
               defaultValue={num1}
           />
 
@@ -40,7 +40,7 @@ function FormCard() {
               placeholder="number 2"
               className="form-card__input"
               defaultValue={num2}
-              onChange={e => setNum2(e.target.value)}
+              onChange={e => setNum2(parseInt(e.target.value))}
           />
 
           <button
